@@ -1,4 +1,4 @@
-# Character Animation in Blender
+# Character Animation in Blender    <img src="http://thilakanathanstudios.com/wp-content/uploads/2015/09/basicworkflow_thumbnail.jpg" align="right" width="300" height="250" />
 ## Title: Naruto Shippuden Fight Scene
 
 Designed a model of a fight scene between two characters on Blender.
@@ -14,6 +14,7 @@ Designed a model of a fight scene between two characters on Blender.
 - To simulate energy from it, go onto the graph editor and add noise modifier to each of the cylinders(or the hence created lightning beams) on the X Euler Rotation.
 - Provide colour to the ico-sphere and adjust the properties like RGB properties and curves, noise texture, blur effect in the node editor window. 
 - Render the animation.
+![Alt text](https://github.com/Pranay2000/Blender-Project/blob/master/Reports/SS/Chidori.PNG)
 
 ----------------------------
 ## STEPS For Creation of Rasengan:
@@ -23,6 +24,7 @@ Designed a model of a fight scene between two characters on Blender.
 - To animate it, add rotations by going to the graph editor and adding a generator modifier which provides a constant line that rotates.
 - Create duplicates of it by pressing ctrl+d and pressing r to rotate it. Make duplicates till it forms a complete sphere or has a ball like structure.
 - Play the animation.
+![Alt text](https://github.com/Pranay2000/Blender-Project/blob/master/Reports/SS/Rasengan.PNG)
 
 -----------------------------
 ## STEPS For Creation of Characters:
@@ -30,6 +32,13 @@ Designed a model of a fight scene between two characters on Blender.
 - Add reference images for the front and side view of the characters. Open the wireframe and do the first extrusion around the lower part of the body. Make the centre vertex as root point.
 - Keep on extruding and scaling from the both the front and the side view to give a particular structure to the character.
 - After the lower body is fully created, Extrude the upper part and resize, scale for the hands, skull and the neck.
+![Alt text](https://github.com/Pranay2000/Blender-Project/blob/master/Reports/SS/Character%20Modeling.PNG)
 
 -----------------------------
-After the creation of characters and the weapons add a particular background image to the scene.
+After the creation of characters and the weapons add a particular background image to the scene. The Final model is designed by importing every .blend file in one single file and the entire scene is rendered.
+![Alt text](https://github.com/Pranay2000/Blender-Project/blob/master/Reports/SS/Final%20Model.PNG)
+
+-----------------------------
+## Future Improvements
+- Sculting and texturing can be added to the modelled characters.
+- Providing movement to the characters and final Rendering for more realism.
